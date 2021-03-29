@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    android:title="@string/settings_title">
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_max_news_default"
+        android:inputType="number"
+        android:key="@string/settings_max_news_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_max_news_string_label"/>
+
+    <ListPreference
+        android:defaultValue="@string/settings_order_by_default"
+        android:entries="@array/settings_order_by_labels"
+        android:entryValues="@array/settings_order_by_value"
+        android:key="@string/settings_order_by_key"
+        android:title="@string/settings_order_by_string_label"/>
+</PreferenceScreen>
