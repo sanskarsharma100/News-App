@@ -1,6 +1,6 @@
 # News-App
 
-News app displays the news recieved from the guardian API.
+News app displays the news received from the guardian API.
 
 
 ## Installation
